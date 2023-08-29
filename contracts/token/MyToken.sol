@@ -15,7 +15,7 @@ contract MyToken is ERC20 {
     }
 
     function pause() public onlyOwner {
-        _pause();
+        _pause(); //pause contract
     }
 
     function unpause() public onlyOwner {
